@@ -13,12 +13,8 @@ const {key, cert} = async () => {
 	}
 };
 
-const httpsServer = https.createServer({key, cert}, app).listen(443)
-
 app.get('/', (req, res) => {
     return res.send("Hello World! Meine app läuft auf dem Server")
 })
-
-app.listen(3000, () => {
-    console.log(`🚀 Server started on port 3000`)
-})
+    
+const httpsServer = https.createServer({key, cert}, app).listen(4433)

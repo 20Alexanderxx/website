@@ -4,11 +4,12 @@
   "description": "My own website",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "Alexander Schmidt",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "express": "^4.18.2"
   },
   "devDependencies": {

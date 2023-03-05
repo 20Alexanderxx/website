@@ -2,7 +2,7 @@ const express = require("express")
 const app = express(); // add this line
 
 app.get('/', (req, res) => {
-    return res.send("Hello World!")
+    return res.send("Hello World! Meine app läuft auf dem Server")
 })
 
 app.listen(3000, () => {

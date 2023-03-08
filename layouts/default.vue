@@ -13,7 +13,7 @@
         </Dialog>
 
         <div class="header">
-            <nav class="bg-blue-900 flex flex-row sm:flex-col items-center h-16 mx-auto px-4">
+            <nav class="bg-slate-800 flex flex-row sm:flex-col items-center h-14 mx-auto px-4">
                 <router-link to="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</router-link>
                 <div class="">
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
@@ -27,6 +27,7 @@
                 </div>
             </nav>
         </div>
+        <div class="bg-gradient-to-b from-slate-800 to-transparent h-2"></div>
         <div class="flex-grow-1">
             <NuxtPage />
         </div>

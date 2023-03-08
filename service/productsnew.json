@@ -1,0 +1,124 @@
+{
+    "content": [
+        {
+            "id": 1,
+            "name": "neues produkt",
+            "description": "Beschreibung",
+            "priceNet": 1,
+            "isActive": true,
+            "createdOn": null,
+            "lastUpdatedOn": null,
+            "categoryId": 1,
+            "address": {
+                "firstName": "Eric",
+                "lastName": "Bro",
+                "company": "BRD GmbH",
+                "street": "Hauptstraße",
+                "streetNumber": "123",
+                "postcode": "1235",
+                "city": "Berli",
+                "country": "Albanien"
+            },
+            "seller": {
+                "firstName": "a",
+                "lastName": "b",
+                "email": "user",
+                "password": "12345",
+                "birthDate": "2000-01-01"
+            },
+            "buyer": null,
+            "images": [
+                {
+                    "id": 1,
+                    "filename": "sus",
+                    "mimeType": "png",
+                    "path": "lol",
+                    "altText": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "neues produkt",
+            "description": "Beschreibung",
+            "priceNet": 1,
+            "isActive": true,
+            "createdOn": null,
+            "lastUpdatedOn": null,
+            "categoryId": 1,
+            "address": {
+                "firstName": "Eric",
+                "lastName": "Bro",
+                "company": "BRD GmbH",
+                "street": "Hauptstraße",
+                "streetNumber": "123",
+                "postcode": "1235",
+                "city": "Berli",
+                "country": "Albanien"
+            },
+            "seller": {
+                "firstName": "a",
+                "lastName": "b",
+                "email": "user",
+                "password": "12345",
+                "birthDate": "2000-01-01"
+            },
+            "buyer": null,
+            "images": []
+        },
+        {
+            "id": 3,
+            "name": "neues produkt",
+            "description": "Beschreibung",
+            "priceNet": 1,
+            "isActive": true,
+            "createdOn": null,
+            "lastUpdatedOn": null,
+            "categoryId": 1,
+            "address": {
+                "firstName": "Eric",
+                "lastName": "Bro",
+                "company": "BRD GmbH",
+                "street": "Hauptstraße",
+                "streetNumber": "123",
+                "postcode": "1235",
+                "city": "Berli",
+                "country": "Albanien"
+            },
+            "seller": {
+                "firstName": "a",
+                "lastName": "b",
+                "email": "user",
+                "password": "12345",
+                "birthDate": "2000-01-01"
+            },
+            "buyer": null,
+            "images": []
+        }
+    ],
+    "pageable": {
+        "sort": {
+            "empty": false,
+            "unsorted": false,
+            "sorted": true
+        },
+        "offset": 0,
+        "pageNumber": 0,
+        "pageSize": 24,
+        "paged": true,
+        "unpaged": false
+    },
+    "totalPages": 1,
+    "totalElements": 3,
+    "last": true,
+    "size": 24,
+    "number": 0,
+    "sort": {
+        "empty": false,
+        "unsorted": false,
+        "sorted": true
+    },
+    "first": true,
+    "numberOfElements": 3,
+    "empty": false
+}

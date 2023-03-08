@@ -13,18 +13,16 @@
         </Dialog>
 
         <div class="header">
-            <nav class="bg-slate-800 flex flex-row sm:flex-col items-center h-14 mx-auto px-4 space-x-2 gap-1">
+            <nav class="bg-slate-800 flex flex-row sm:flex-col items-center h-14 mx-auto px-4 space-x-1 gap-1">
                 <router-link to="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</router-link>
-                <div class="">
-                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
-                    <RouterLink to="/about" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">About me</RouterLink>
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
-                    <RouterLink to="/contact" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Contact</RouterLink>
+                <RouterLink to="/about" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">About me</RouterLink>
 
-                    <RouterLink to="/projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Projects</RouterLink>
+                <RouterLink to="/contact" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Contact</RouterLink>
 
-                </div>
+                <RouterLink to="/projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Projects</RouterLink>
             </nav>
         </div>
         <div class="bg-gradient-to-b from-slate-800 to-transparent h-2"></div>

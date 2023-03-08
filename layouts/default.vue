@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen flex flex-column">
+    <div class="min-h-screen flex flex-column antialiased bg-gradient-to-b from-blue-800 to-pink-600">
         <Dialog v-model:visible="logoutSuccess" :breakpoints="{ '960px': '80vw' }" :style="{ width: '30vw' }" position="top">
             <div class="flex align-items-center flex-column pt-6 px-3">
                 <i class="pi pi-check-circle" :style="{ fontSize: '5rem', color: 'var(--green-500)' }"></i>
@@ -13,26 +13,26 @@
         </Dialog>
 
         <div class="header">
-            <Menubar :model="items">
-                <template #start>
-                    <div class="px-2">
-                        <router-link to="/" tag="button"><strong>home</strong></router-link>
-                    </div>
-                </template>
-            </Menubar>
+            <nav class="bg-blue-900 flex flex-row sm:flex-col items-center h-16 mx-auto px-4">
+                <router-link to="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</router-link>
+                <div class="">
+                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+
+                    <RouterLink to="/about" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">About me</RouterLink>
+
+                    <RouterLink to="/contact" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Contact</RouterLink>
+
+                    <RouterLink to="/projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Projects</RouterLink>
+
+                </div>
+            </nav>
         </div>
-        <div id="content" class="content flex-grow-1">
+        <div class="flex-grow-1">
             <NuxtPage />
         </div>
-        <div class="footer align-items-center pt-3" style="width: 100%;">
-            <!--footer-->
-            <div class="bg-gray-100">
-                <div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
-                    <div class="cr">©2023 This was made with love by <NuxtLink to="/easterEgg">Alex</NuxtLink>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <footer class="text-xs p-4 text-center">
+            © 2023 Copyright Alexander Schmidt
+        </footer>
     </div>
 </template>
 

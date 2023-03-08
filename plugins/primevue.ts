@@ -25,6 +25,8 @@ import Galleria from 'primevue/galleria';
 import OverlayPanel from 'primevue/overlaypanel';
 import FileUpload from 'primevue/fileupload';
 import Carousel from 'primevue/carousel';
+import Splitter from 'primevue/splitter';
+import SplitterPanel from 'primevue/splitterpanel';
 
 // Directives
 import Ripple from 'primevue/ripple'
@@ -67,6 +69,8 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component('OverlayPanel', OverlayPanel)
   nuxtApp.vueApp.component('FileUpload', FileUpload)
   nuxtApp.vueApp.component('Carousel', Carousel)
+  nuxtApp.vueApp.component('Splitter', Splitter)
+  nuxtApp.vueApp.component('SplitterPanel', SplitterPanel)
 
 
   nuxtApp.vueApp.directive('ripple', Ripple)

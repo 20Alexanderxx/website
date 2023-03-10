@@ -1,5 +1,5 @@
 <template>
-    <div class="about">
+    <div class="">
         <h1>Über mich</h1>
         <p>Ich bin Alexander Schmidt und studiere aktuell Technische Informatik</p>
         <h2>Meine Hobbys</h2>
@@ -12,9 +12,3 @@
         <p>coming soon with gallery</p>
     </div>
 </template>
-
-<style scoped>
-.about {
-    margin: 20px;
-}
-</style>

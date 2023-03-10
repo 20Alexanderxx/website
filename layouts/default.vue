@@ -13,21 +13,21 @@
         </Dialog>
 
         <div class="header">
-            <nav class="bg-slate-800 flex flex-row sm:flex-col items-center h-14 mx-auto px-4 space-x-1 gap-1">
-                <router-link to="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</router-link>
+            <nav class="bg-slate-800 flex flex-col sm:flex-row items-center py-2 px-4 gap-1">
+                <router-link to="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white">Home</router-link>
 
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 
-                <RouterLink to="/about" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">About me</RouterLink>
+                <RouterLink to="/about" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white">About me</RouterLink>
 
-                <RouterLink to="/contact" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Contact</RouterLink>
+                <RouterLink to="/contact" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white">Contact</RouterLink>
 
-                <RouterLink to="/projects" class="text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Projects</RouterLink>
+                <RouterLink to="/projects" class="hidden sm:block text-gray-300 hover:bg-gray-700 hover:text-white px-2 py-2 rounded-md text-sm font-medium" active-class="bg-gray-900 text-white">Projects</RouterLink>
             </nav>
         </div>
         <div class="bg-gradient-to-b from-slate-800 to-transparent h-2"></div>
         <div class="flex-grow-1">
-            <NuxtPage />
+            <NuxtPage :key="$route.fullPath" />
         </div>
         <footer class="text-xs p-4 text-center">
             © 2023 Copyright Alexander Schmidt
@@ -51,23 +51,6 @@ const resetSuccess = () => {
     logoutSuccess.value = false;
 };
 
-const items = ref<MenuItem[]>([
-    {
-        label: 'About me',
-        icon: 'pi pi-fw pi-user',
-        to: "/about",
-    },
-    {
-        label: 'contact me',
-        icon: 'pi pi-fw pi-envelope',
-        to: "/contact",
-    },
-    {
-        label: 'Login',
-        icon: 'pi pi-fw pi-sign-in',
-        to: "/login",
-    }
-]);
 useHead({
     // icon: 'wallpaperIcon.png'
 }

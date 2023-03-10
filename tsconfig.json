@@ -1,4 +1,13 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  /*"references": [
+    {
+      "path": "./google-maps-api/index.ts",
+      "prepend": true,
+    },
+  ],
+  "assetsInclude": [
+    "**\/*.html",
+  ]*/
 }

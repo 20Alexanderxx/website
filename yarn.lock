@@ -706,6 +706,11 @@
   "resolved" "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   "version" "0.2.0"
 
+"@types/chroma-js@^2.1.4":
+  "integrity" "sha512-JklMxityrwjBTjGY2anH8JaTx3yjRU3/sEHSblLH1ba5lqcSh1LnImXJZO5peJfXyqKYWjHTGy4s5Wz++hARrw=="
+  "resolved" "https://registry.npmjs.org/@types/chroma-js/-/chroma-js-2.4.0.tgz"
+  "version" "2.4.0"
+
 "@types/eslint-scope@^3.7.3":
   "integrity" "sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA=="
   "resolved" "https://registry.npmjs.org/@types/eslint-scope/-/eslint-scope-3.7.4.tgz"
@@ -736,6 +741,11 @@
   "integrity" "sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw=="
   "resolved" "https://registry.npmjs.org/@types/estree/-/estree-0.0.39.tgz"
   "version" "0.0.39"
+
+"@types/google.maps@^3.48.8":
+  "integrity" "sha512-zhzHLgAU4EDai3/NDorWTYUskS7KSoK6m8MYPu66lPVbz1RsKJjEEEI+89oj3rPG5Zw8bszoGGXrsH5ehXkuTw=="
+  "resolved" "https://registry.npmjs.org/@types/google.maps/-/google.maps-3.52.2.tgz"
+  "version" "3.52.2"
 
 "@types/json-schema@*", "@types/json-schema@^7.0.8":
   "integrity" "sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ=="
@@ -1553,6 +1563,11 @@
   "resolved" "https://registry.npmjs.org/chownr/-/chownr-2.0.0.tgz"
   "version" "2.0.0"
 
+"chroma-js@^2.4.2":
+  "integrity" "sha512-U9eDw6+wt7V8z5NncY2jJfZa+hUH8XEj8FQHgFJTrUFnJfXYf4Ml4adI2vXZOjqRDpFWtYVWypDfZwnJ+HIR4A=="
+  "resolved" "https://registry.npmjs.org/chroma-js/-/chroma-js-2.4.2.tgz"
+  "version" "2.4.2"
+
 "chrome-trace-event@^1.0.2":
   "integrity" "sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg=="
   "resolved" "https://registry.npmjs.org/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz"
@@ -2227,6 +2242,33 @@
   "integrity" "sha512-qinug1iTTaIIrCorAUjR0fcBk24fjzEedFYhhispP8Oc7SFvs+XeW3YpAKiKp8dRpizl4YYAhxMjlftAMJiaUw=="
   "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.18.tgz"
   "version" "0.15.18"
+
+"esbuild@^0.14.27":
+  "integrity" "sha512-Cy9llcy8DvET5uznocPyqL3BFRrFXSVqbgpMJ9Wz8oVjZlh/zUSNbPRbov0VX7VxN2JH1Oa0uNxZ7eLRb62pJA=="
+  "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.54.tgz"
+  "version" "0.14.54"
+  optionalDependencies:
+    "@esbuild/linux-loong64" "0.14.54"
+    "esbuild-android-64" "0.14.54"
+    "esbuild-android-arm64" "0.14.54"
+    "esbuild-darwin-64" "0.14.54"
+    "esbuild-darwin-arm64" "0.14.54"
+    "esbuild-freebsd-64" "0.14.54"
+    "esbuild-freebsd-arm64" "0.14.54"
+    "esbuild-linux-32" "0.14.54"
+    "esbuild-linux-64" "0.14.54"
+    "esbuild-linux-arm" "0.14.54"
+    "esbuild-linux-arm64" "0.14.54"
+    "esbuild-linux-mips64le" "0.14.54"
+    "esbuild-linux-ppc64le" "0.14.54"
+    "esbuild-linux-riscv64" "0.14.54"
+    "esbuild-linux-s390x" "0.14.54"
+    "esbuild-netbsd-64" "0.14.54"
+    "esbuild-openbsd-64" "0.14.54"
+    "esbuild-sunos-64" "0.14.54"
+    "esbuild-windows-32" "0.14.54"
+    "esbuild-windows-64" "0.14.54"
+    "esbuild-windows-arm64" "0.14.54"
 
 "esbuild@^0.14.47":
   "integrity" "sha512-Cy9llcy8DvET5uznocPyqL3BFRrFXSVqbgpMJ9Wz8oVjZlh/zUSNbPRbov0VX7VxN2JH1Oa0uNxZ7eLRb62pJA=="
@@ -4494,7 +4536,7 @@
   "resolved" "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   "version" "4.2.0"
 
-"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.0", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.2", "postcss@^8.2.14", "postcss@^8.2.15", "postcss@^8.2.2", "postcss@^8.4", "postcss@^8.4.16", "postcss@^8.4.21", "postcss@>=8.0.9":
+"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.0", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.1.10", "postcss@^8.2", "postcss@^8.2.14", "postcss@^8.2.15", "postcss@^8.2.2", "postcss@^8.4", "postcss@^8.4.13", "postcss@^8.4.16", "postcss@^8.4.21", "postcss@>=8.0.9":
   "integrity" "sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg=="
   "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.4.21.tgz"
   "version" "8.4.21"
@@ -4736,7 +4778,7 @@
     "http-errors" "~1.6.2"
     "path-is-absolute" "1.0.1"
 
-"resolve@^1.1.7", "resolve@^1.17.0", "resolve@^1.19.0", "resolve@^1.22.1":
+"resolve@^1.1.7", "resolve@^1.17.0", "resolve@^1.19.0", "resolve@^1.22.0", "resolve@^1.22.1":
   "integrity" "sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw=="
   "resolved" "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz"
   "version" "1.22.1"
@@ -4789,6 +4831,13 @@
   "integrity" "sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw=="
   "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.79.1.tgz"
   "version" "2.79.1"
+  optionalDependencies:
+    "fsevents" "~2.3.2"
+
+"rollup@>=2.59.0 <2.78.0":
+  "integrity" "sha512-/qxNTG7FbmefJWoeeYJFbHehJ2HNWnjkAFRKzWN/45eNBBF/r8lo992CwcJXEzyVxs5FmfId+vTSTQDb+bxA+g=="
+  "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.77.3.tgz"
+  "version" "2.77.3"
   optionalDependencies:
     "fsevents" "~2.3.2"
 
@@ -5369,6 +5418,11 @@
     "media-typer" "0.3.0"
     "mime-types" "~2.1.24"
 
+"typescript@*", "typescript@^4.6.4":
+  "integrity" "sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
+  "version" "4.9.5"
+
 "ufo@^0.8.3":
   "integrity" "sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw=="
   "resolved" "https://registry.npmjs.org/ufo/-/ufo-0.8.6.tgz"
@@ -5567,7 +5621,19 @@
     "vscode-languageserver-textdocument" "^1.0.1"
     "vscode-uri" "^3.0.2"
 
-"vite@^2.9.12 || ^3.0.0-0", "vite@^3.0.0", "vite@>=2.0.0", "vite@~3.0.9":
+"vite@^2.9.12 || ^3.0.0-0", "vite@^2.9.9", "vite@>=2.0.0":
+  "integrity" "sha512-fzMt2jK4vQ3yK56te3Kqpkaeq9DkcZfBbzHwYpobasvgYmP2SoAr6Aic05CsB4CzCZbsDv4sujX3pkEGhLabVQ=="
+  "resolved" "https://registry.npmjs.org/vite/-/vite-2.9.15.tgz"
+  "version" "2.9.15"
+  dependencies:
+    "esbuild" "^0.14.27"
+    "postcss" "^8.4.13"
+    "resolve" "^1.22.0"
+    "rollup" ">=2.59.0 <2.78.0"
+  optionalDependencies:
+    "fsevents" "~2.3.2"
+
+"vite@^3.0.0", "vite@~3.0.9":
   "integrity" "sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw=="
   "resolved" "https://registry.npmjs.org/vite/-/vite-3.0.9.tgz"
   "version" "3.0.9"

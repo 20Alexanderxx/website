@@ -3,6 +3,7 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss'],
+    plugins: ['~/google-maps-api/index.ts'],
     ssr: false,
     css: [
         '~/assets/css/main.scss',
